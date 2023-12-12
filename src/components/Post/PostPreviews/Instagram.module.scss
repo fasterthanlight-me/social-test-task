@@ -1,0 +1,92 @@
+.div {
+  background: red !important;
+  padding: 30px;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #e7e6e6;
+  padding-bottom: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px -4px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.left {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+.right {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+
+}
+.imageContainer {
+  margin-top: 2px;
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  background-color: #ccc;
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.authorName {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+.icon {
+  margin: 8px;
+}
+.icons .icon:first-child {
+  margin-left: 0;
+}
+.description {
+  width: 100%;
+  text-align: left;
+  padding: 0 16px;
+}
+.textContent {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+  word-break: break-all;
+}
+:global(.slick-dots li) {
+  padding: 1px;
+  margin: 0;
+  width: 12px;
+  height: 10px;
+}
+:global(.slick-dots li button) {
+  padding: 1px;
+  margin: 0;
+
+}
+
+:global(.slick-dots li.slick-active button:before) {
+color: rgb(25, 118, 210);
+}
+
